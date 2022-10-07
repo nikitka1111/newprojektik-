@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+ul{
+    list-style-type: none;
+
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    background: #F5F5F5;
+    height: 3rem;
+    align-items: center;
+}
+.header-top>ul{
+    display: flex;
+    max-width: 120px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-list{
+    display: flex;
+}
+.col{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    row-gap: 5rem;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    height: 50px;
+    align-items: center;       
+    background-color: #FFB342;
+    border: #FFB342;
+    align-items: center;
+    height: 4rem;
+}
+.button1 {
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0.5rem;
+    background: #1C2752;
+    text-decoration: none;    
+    color: #ffffff;
+    width: 100%;
+}
+.about-us>p{
+    color: aqua;
+    width:200px;
+    
+}
+.p{
+    height: 400px;
+}
+
