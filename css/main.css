@@ -76,3 +76,214 @@ ul{
     height: 400px;
 }
 
+.piclefttext {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocl{
+    height: 600px;
+    background-color: #FFB342;
+}
+.text2{
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center; */
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    padding: 10rem;
+}
+.ima{
+    background: #F5F5F5;
+}
+.mtext{
+    display: flex;
+    background: #F5F5F5;
+}
+.atext{
+    display: flex;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+}
+.btext{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.button2{
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    background: #ffffff;
+    text-decoration: none;    
+    color: #000000;
+    width: 100%; 
+}
+.knopki{
+    display: flex;
+   justify-content: space-evenly;    
+   /* display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 100px); */
+}
+
+
+.first {
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0.1rem;
+    background: #ffffff;
+    text-decoration: none;
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.second{
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0.1rem;
+    background: #FFB342;
+    text-decoration: none;
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.therd{
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0.1rem;
+    background: #FFB342;
+    text-decoration: none;
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.wblock{
+    background: #dad4d4;
+}
+.rkart{
+    display: grid;
+}
+.text3{
+    display: grid;
+    gap: 2rem;
+    justify-items: start;
+    padding: 8rem; 
+    color: #1C2752;
+}
+.button6{
+    border: none;
+    cursor: pointer;
+    padding: 1rem 4rem;
+    background: #FFB342;
+    text-decoration: none;
+    width: 25%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.blue{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kartinka{
+    display: grid;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 14px 28px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    height: 350px;
+    background: #1C2752;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container1>b{
+    color:#FFB342;
+    display: flex;
+    padding: 1.3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Add some padding inside the card container */
+.container1>p{
+    padding: 2px 16px;
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.blue2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    height: 350px;
+}
+
+.dblue{
+    height: 500px;
+    background: #1C2752;
+    display: flex;
+    padding-top: 25rem;
+}
+
+.card2{
+    display: grid;
+    width: 300px; 
+    height: 400px; 
+    background: #dadada;
+    border: 5px solid #1C2752;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.container2>b{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    color: #1C2752;
+    justify-content: center;
+}
+.container2>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
